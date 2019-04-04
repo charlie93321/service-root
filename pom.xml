@@ -6,7 +6,14 @@
 
     <groupId>com.dubbo</groupId>
     <artifactId>service-root</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>service-api</module>
+        <module>service-provider</module>
+        <module>service-consumer-user</module>
+        <module>service-consumer</module>
+    </modules>
 
 
 </project>
